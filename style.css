@@ -1,0 +1,79 @@
+.main-container {
+  position: relative;
+}
+.main-slider {
+  position: absolute;
+  width: 100%;
+}
+
+.container-nav {
+  width: 100% !important;
+  max-width: 100%;
+  overflow: hidden;
+}
+.nav-bar {
+  padding-top: 50px;
+  width: 100%;
+}
+.nav-logo {
+  padding-left: 100px;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+.nav-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .nav-ctrl {
+} */
+
+.slider-image {
+  max-height: 100vh;
+}
+.second-box {
+  height: 300px;
+  background-color: rgb(204, 204, 204);
+}
+.nav-ctrl-bullets {
+  padding-right: 50px;
+  padding-left: 25px;
+}
+.nav-bullet {
+  height: 12px;
+  width: 12px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.slider-out {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  margin: auto;
+}
+.slider-btn-wrap {
+  padding-left: 3px;
+  padding-top: 3px;
+}
+.slider-btn {
+  font-size: 40px;
+  color: #fff;
+}
+.slider-num {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+.slider-ctrl {
+  display: flex;
+  float: right;
+  align-items: center;
+}
+.main-nav {
+  padding-left: 100px;
+}
